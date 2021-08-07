@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Projects">
+
+    <TextView
+        android:id="@+id/pro1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/blackborder"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:paddingTop="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Blood Bank Application" />
+
+    <TextView
+        android:id="@+id/pro2"
+        android:background="@drawable/blackborder"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:paddingTop="12dp"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/black"
+        android:text="Digital Library Application" />
+
+    <TextView
+        android:id="@+id/pro3"
+        android:background="@drawable/blackborder"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:paddingTop="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Dominant Colour Extraction" />
+
+    <TextView
+        android:id="@+id/pro4"
+        android:background="@drawable/blackborder"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:paddingTop="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Eye Blink Detection" />
+
+    <TextView
+        android:id="@+id/pro5"
+        android:background="@drawable/blackborder"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:paddingTop="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Gas Leakage Detection" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:layout_marginTop="30dp">
+
+
+        <Button
+            android:id="@+id/getsupport"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Get Support"
+            android:background="@drawable/mic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.866" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Prozone</string>
+    <string name="todo">TODO</string>
+    <string name="capstone_the_easiest">Capstone The \'Easiest\'</string>
+    <string name="default_web_client_id">web id</string>
+    <string name="thinking_of_ideas">Thinking Of Ideas?</string>
+    <string name="let_s_join_the_community">Let\'s Join The Community.</string>
+    <string name="sign_up_with_google">Sign Up With Google</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
 </resources>
