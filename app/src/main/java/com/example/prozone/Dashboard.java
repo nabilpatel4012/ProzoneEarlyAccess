@@ -42,7 +42,7 @@ public class Dashboard extends AppCompatActivity {
         mores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Login2.class);
+                Intent intent = new Intent(getApplicationContext(),More.class);
                 startActivity(intent);
             }
         });

@@ -92,7 +92,6 @@ public class Freebies extends AppCompatActivity {
             }
         });
 
-
     }
 
     private void gotoUrl(String s) {

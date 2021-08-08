@@ -62,7 +62,7 @@
         android:clickable="true"
         android:focusable="true"
         android:paddingTop="12dp"
-        android:text="More"
+        android:text="Profile"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"

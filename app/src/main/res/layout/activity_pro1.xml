@@ -6,16 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".Pro1">
 
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
+    <TextView
+        android:id="@+id/headline"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:paddingTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Blood Bank Android App"
+        android:background="@drawable/border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="415dp"
+        android:layout_height="206dp"
+        android:paddingStart="20dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="As the blood and blood donation is a necessary part of life, Blood bank application provides a platform which connects the blood donor and receiver at one place. The is developed using android studio. Student has to learn java programming and database handling for development."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headline"
         app:layout_constraintVertical_bias="0.18" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mic"
+        android:paddingTop="12dp"
+        android:text="Download Resources"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.492" />
 </androidx.constraintlayout.widget.ConstraintLayout>

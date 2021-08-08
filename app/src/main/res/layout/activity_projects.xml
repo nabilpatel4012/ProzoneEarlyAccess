@@ -61,21 +61,22 @@
         android:textColor="@color/black"
         android:clickable="true"
         android:focusable="true"
-        android:text="Eye Blink Detection" />
+        android:text="Gas Leakage Detection" />
 
     <TextView
         android:id="@+id/pro5"
-        android:background="@drawable/blackborder"
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:paddingTop="12dp"
-        android:textAlignment="center"
-        android:textColor="@color/black"
+        android:background="@drawable/blackborder"
         android:clickable="true"
         android:focusable="true"
-        android:text="Gas Leakage Detection" />
+        android:paddingTop="12dp"
+        android:text="Near Health Website
+"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

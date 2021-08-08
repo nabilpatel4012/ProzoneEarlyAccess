@@ -5,5 +5,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Pro3">
+    <TextView
+        android:id="@+id/headline"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:paddingTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Dominant Color Extraction"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="415dp"
+        android:layout_height="206dp"
+        android:fontFamily="monospace"
+        android:paddingStart="20dp"
+        android:text="@string/this_project_is_about_extracting_dominant_colors_from_a_user_entered_image_it_is_a_python_code_which_also_shows_the_rgb_value_and_hex_codes_of_the_colors_extracted_from_the_image_placed_in_the_color_palette_for_this_we_used_various_libraries_like_opencv_numpy_pil_etc_the_basic_technology_used_is_k_means_clustering"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headline"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <TextView
+        android:id="@+id/res3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/mic"
+        android:paddingTop="12dp"
+        android:text="Download Resources"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
