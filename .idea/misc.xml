@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nabil/AndroidStudioProjects/ProzoneEarlyAccess/app/src/main/res/drawable/blackborder.xml" value="0.212" />
+        <entry key="..\:/Users/nabil/AndroidStudioProjects/ProzoneEarlyAccess/app/src/main/res/drawable/round_border.xml" value="0.212" />
+        <entry key="..\:/Users/nabil/AndroidStudioProjects/ProzoneEarlyAccess/app/src/main/res/layout/activity_freebies.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/nabil/AndroidStudioProjects/ProzoneEarlyAccess/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/nabil/AndroidStudioProjects/ProzoneEarlyAccess/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
         <entry key="app/src/main/res/drawable/input_bg.xml" value="0.29259259259259257" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />

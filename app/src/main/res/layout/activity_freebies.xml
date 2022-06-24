@@ -8,50 +8,50 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
+        android:layout_width="111dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="30dp"
         android:clickable="true"
         android:focusable="true"
-        android:layout_marginStart="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043"
+        app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/_0_microsoft" />
 
     <TextView
         android:id="@+id/tv1"
         android:layout_width="200dp"
         android:layout_height="115dp"
-        android:paddingTop="43dp"
-        android:textSize="20sp"
-        android:textColor="@color/black"
+        android:background="@drawable/mic"
         android:clickable="true"
         android:focusable="true"
+        android:paddingTop="43dp"
         android:text="Microsoft Azure"
         android:textAlignment="center"
-        android:background="@drawable/mic"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintHorizontal_bias="0.257"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintVertical_bias="0.06" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
+        android:layout_width="109dp"
+        android:layout_height="106dp"
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.056"
+        app:layout_constraintVertical_bias="0.072"
         app:srcCompat="@drawable/__arduino" />
 
     <TextView
@@ -75,16 +75,16 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
+        android:layout_width="109dp"
+        android:layout_height="104dp"
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.075"
+        app:layout_constraintVertical_bias="0.133"
         app:srcCompat="@drawable/__atom" />
 
     <TextView
@@ -108,16 +108,16 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
+        android:layout_width="109dp"
+        android:layout_height="113dp"
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.139"
+        app:layout_constraintVertical_bias="0.248"
         app:srcCompat="@drawable/__canva" />
 
     <TextView
@@ -141,8 +141,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
+        android:layout_width="103dp"
+        android:layout_height="106dp"
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"

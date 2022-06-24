@@ -94,7 +94,7 @@
         android:focusable="true"
         android:minHeight="48dp"
         android:text="@string/create_account"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/login_btn"

@@ -65,6 +65,7 @@ public class Register extends AppCompatActivity {
 
     private void PerforAuth() {
         String email = inputEmail.getText().toString();
+        email = email.trim();
         String password = inputPassword.getText().toString();
         String confirmPassword = inputConfirmPassword.getText().toString();
 

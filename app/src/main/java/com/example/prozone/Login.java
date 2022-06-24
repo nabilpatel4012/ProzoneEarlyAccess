@@ -69,6 +69,7 @@ public class Login extends AppCompatActivity {
 
     private void perforLogin() {
         String email = email_log.getText().toString();
+        email = email.trim();
         String password = passwd.getText().toString();
 
         if (!email.matches(emailPattern)) {
